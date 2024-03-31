@@ -1,0 +1,15 @@
+/Users/mhalsey/Documents/Projects/Pet_Store_CodeYou/Pet_Store_CodeYou/bin/Debug/net8.0/Pet_Store_CodeYou
+/Users/mhalsey/Documents/Projects/Pet_Store_CodeYou/Pet_Store_CodeYou/bin/Debug/net8.0/Pet_Store_CodeYou.deps.json
+/Users/mhalsey/Documents/Projects/Pet_Store_CodeYou/Pet_Store_CodeYou/bin/Debug/net8.0/Pet_Store_CodeYou.runtimeconfig.json
+/Users/mhalsey/Documents/Projects/Pet_Store_CodeYou/Pet_Store_CodeYou/bin/Debug/net8.0/Pet_Store_CodeYou.dll
+/Users/mhalsey/Documents/Projects/Pet_Store_CodeYou/Pet_Store_CodeYou/bin/Debug/net8.0/Pet_Store_CodeYou.pdb
+/Users/mhalsey/Documents/Projects/Pet_Store_CodeYou/Pet_Store_CodeYou/obj/Debug/net8.0/Pet_Store_CodeYou.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mhalsey/Documents/Projects/Pet_Store_CodeYou/Pet_Store_CodeYou/obj/Debug/net8.0/Pet_Store_CodeYou.AssemblyInfoInputs.cache
+/Users/mhalsey/Documents/Projects/Pet_Store_CodeYou/Pet_Store_CodeYou/obj/Debug/net8.0/Pet_Store_CodeYou.AssemblyInfo.cs
+/Users/mhalsey/Documents/Projects/Pet_Store_CodeYou/Pet_Store_CodeYou/obj/Debug/net8.0/Pet_Store_CodeYou.csproj.CoreCompileInputs.cache
+/Users/mhalsey/Documents/Projects/Pet_Store_CodeYou/Pet_Store_CodeYou/obj/Debug/net8.0/Pet_Store_CodeYou.sourcelink.json
+/Users/mhalsey/Documents/Projects/Pet_Store_CodeYou/Pet_Store_CodeYou/obj/Debug/net8.0/Pet_Store_CodeYou.dll
+/Users/mhalsey/Documents/Projects/Pet_Store_CodeYou/Pet_Store_CodeYou/obj/Debug/net8.0/refint/Pet_Store_CodeYou.dll
+/Users/mhalsey/Documents/Projects/Pet_Store_CodeYou/Pet_Store_CodeYou/obj/Debug/net8.0/Pet_Store_CodeYou.pdb
+/Users/mhalsey/Documents/Projects/Pet_Store_CodeYou/Pet_Store_CodeYou/obj/Debug/net8.0/Pet_Store_CodeYou.genruntimeconfig.cache
+/Users/mhalsey/Documents/Projects/Pet_Store_CodeYou/Pet_Store_CodeYou/obj/Debug/net8.0/ref/Pet_Store_CodeYou.dll
