@@ -1,11 +1,12 @@
 ﻿using System.Text.Json;
 
-internal class Program
+var productLogic = new ProductLogic();
+public class Program
 {
     private static void Main(string[] args)
     {
-        Console.WriteLine("Press 1 to add a product");
-        Console.WriteLine("Type 'exit' to quite");
+        Console.WriteLine("Press 1 to add a product, 2 to get a product from the list.");
+        Console.WriteLine("Type 'exit' to quit");
         string userInput = Console.ReadLine();
 
         while (userInput.ToLower() != "exit")
@@ -13,12 +14,19 @@ internal class Program
             if (userInput == "1")
             {
                 CatFood catFood = new CatFood();
-                Console.WriteLine(JsonSerializer.Serialize(catFood));
+                //Console.WriteLine(JsonSerializer.Serialize(catFood));
+                //replacing line above with method per step 8 from part2 instructions
+                AddProduct(catFood);
+                Console.WriteLine($"{catFood} was added!");
             }
-            Console.WriteLine("Press 1 to add a product");
-            Console.WriteLine("Type 'exit' to quite");
+            if (userInput == "2")
+            {
+                GetAllProducts();
+            }
+                Console.WriteLine("Press 1 to add a product, 2 to get a product from the list.");
+                Console.WriteLine("Type 'exit' to quit");
             userInput = Console.ReadLine();
         }
 
-}
+    }
 }
