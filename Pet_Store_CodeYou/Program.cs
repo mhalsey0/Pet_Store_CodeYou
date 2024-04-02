@@ -14,8 +14,6 @@ public class Program
             if (userInput == "1")
             {
                 CatFood catFood = new CatFood();
-                //Console.WriteLine(JsonSerializer.Serialize(catFood));
-                //replacing line above with method per step 8 from part2 instructions
                 AddProduct(catFood);
                 Console.WriteLine($"{catFood} was added!");
             }

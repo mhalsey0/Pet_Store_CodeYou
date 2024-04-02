@@ -15,10 +15,6 @@ public class ProductLogic
         {
             _dogLeashDictionary.Add(product.Name, product as DogLeash);
         }
-        /*I know understand this error is saying that I
-        provided a key but no value. Product is the value
-        but what is the key for this exercise? */
-
         if (product is CatFood)
         {
             _catFoodDictionary.Add(product.Name, product as CatFood);
