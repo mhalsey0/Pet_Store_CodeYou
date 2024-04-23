@@ -1,5 +1,5 @@
 using System;
-using Products;
+using Product;
 
 namespace Interface
 {
@@ -7,7 +7,7 @@ namespace Interface
     {
         public void AddProduct(Product product);
 
-        public list<Product> GetAllProducts();
+        public List<Product> GetAllProducts();
 
         public DogLeash GetDogLeashByName(string name);
     }

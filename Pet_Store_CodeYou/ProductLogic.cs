@@ -5,8 +5,6 @@ public class ProductLogic : IProductLogic
     private List<Product> _products;
     private Dictionary<string, DogLeash> _dogLeashDictionary;
     private Dictionary<string, CatFood> _catFoodDictionary;
-//Errors here saying objects above do not exist in this context
-    AddProduct(new Product { Name = "Leather Leash", Price = 26.99M, QuantityOnHand = 5 })
 
     public ProductLogic()
     {
