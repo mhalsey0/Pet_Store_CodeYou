@@ -1,8 +1,10 @@
-public class ProductLogic
+public class ProductLogic : IProductLogic
 {
     private List<Product> _products;
     private Dictionary<string, DogLeash> _dogLeashDictionary;
     private Dictionary<string, CatFood> _catFoodDictionary;
+//Errors here saying objects above do not exist in this context
+    AddProduct(new Product { Name = "Leather Leash", Price = 26.99M, QuantityOnHand = 5 })
 
     public ProductLogic()
     {
@@ -27,11 +29,22 @@ public class ProductLogic
 
     public DogLeash GetDogLeashByName(string Name)
     {
-        return _dogLeashDictionary[Name];
+        try 
+        {  
+            return _dogLeashDictionary[Name];
+        }
+        catch (Exception) 
+        {
+            return null;
+        }
     }
 
     public List<Product> GetAllProducts()
     {
         return _products;
     }
+}
+
+public interface IProductLogic
+{
 }

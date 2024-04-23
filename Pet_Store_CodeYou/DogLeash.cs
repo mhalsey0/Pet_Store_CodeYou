@@ -1,8 +1,5 @@
-public class DogLeash : Product
+public class DogLeash(string name, decimal price, int quantity, string type) : Product(name, price, quantity, type)
 {
-    public DogLeash(string name, decimal price, int quantity, string type) : base(name, price, quantity, type)
-    {
-    }
     public int LengthInches;
     public string Material;
 }

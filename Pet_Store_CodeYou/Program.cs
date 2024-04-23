@@ -1,7 +1,5 @@
-﻿using System.Text.Json;
-
-var productLogic = new ProductLogic();
-public class Program
+﻿var productLogic = new ProductLogic();
+internal class Program
 {
     private static void Main(string[] args)
     {
