@@ -43,8 +43,17 @@ public class ProductLogic : IProductLogic
 
     public List<Product> GetAllProducts()
     {
-        return _products.Where(x => x.Quantity > 0).Select(x=>x.Name)
-        .ToList();
+        return _products;
     }
+
+        public List<string> GetOnlyInStockProducts()
+        {
+            return _products
+                .Where(x => x.Quantity > 0)
+                .Select(x => x.Name)
+                .ToList();
+        }
+
+        
     }
 }
