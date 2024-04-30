@@ -1,5 +1,7 @@
+using Interface;
 
-
+namespace ProductLogic
+{
 public class ProductLogic : IProductLogic
 {
     private List<Product> _products;
@@ -41,10 +43,8 @@ public class ProductLogic : IProductLogic
 
     public List<Product> GetAllProducts()
     {
-        return _products;
+        return _products.Where(x => x.Quantity > 0).Select(x=>x.Name)
+        .ToList();
     }
-}
-
-public interface IProductLogic
-{
+    }
 }

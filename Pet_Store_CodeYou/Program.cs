@@ -1,4 +1,4 @@
-﻿var productLogic = new ProductLogic();
+﻿
 internal class Program
 {
     private static void Main(string[] args)
@@ -23,6 +23,6 @@ internal class Program
                 Console.WriteLine("Type 'exit' to quit");
             userInput = Console.ReadLine();
         }
-
+        var productLogic = new ProductLogic();
     }
 }

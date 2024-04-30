@@ -1,6 +1,3 @@
-using System;
-using Product;
-
 namespace Interface
 {
     public interface IProductLogic
@@ -10,6 +7,7 @@ namespace Interface
         public List<Product> GetAllProducts();
 
         public DogLeash GetDogLeashByName(string name);
+
+        public List<Product> GetOnlyInStockProducts();
     }
 }
-
